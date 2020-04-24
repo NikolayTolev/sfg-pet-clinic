@@ -65,7 +65,7 @@ public class DataLoader implements CommandLineRunner {
         fionasPet.setBirthDay(LocalDate.now());
         fionasPet.setName("Just Cat");
         owner2.getPets().add(fionasPet);
-        
+
         ownerService.save(owner2);
 
         System.out.println("Loaded Owners...");
